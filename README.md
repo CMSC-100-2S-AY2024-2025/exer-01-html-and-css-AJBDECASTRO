@@ -1,1 +1,17 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hMVHYWFS)
+○ **Name**: Andrei Josh B. De Castro
+○ **Degree Program**:
+○ **Live Website link**: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-AJBDECASTRO/DeCastro_exer2.html
+○ Steps on how to create GitHub page
+  - Open Github and sign in accordingly
+  - Create a repository (or navigate to your existing repository)
+  - Ensure that your **HTML and CSS files are pushed** into the repository
+  - Navigate to your settings on your repistory
+  - Under code and automation, click on **Pages**
+  - Under Build and Deployment and Branch, select your main branch and root, then save
+  - Wait for your website to be built
+  - At the top of the GitHub pages setting, it should show your website link
+  - If it redirects you to your README.md file, add [FILENAME].html to the end of the URL
+○ What are your key takeaways from this exercise?
+  - CSS is confusing in terms of manipulationg the orientation of the elements
+  - There are a lot of things I did not know about HTML and CSS in general
+  - Website development is hard (especially when this is just a static website)
