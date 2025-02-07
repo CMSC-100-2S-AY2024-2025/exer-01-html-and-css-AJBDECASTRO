@@ -1,89 +1,67 @@
-body {
-    font-family: "Lucida Console", "Courier New", monospace;
+body { /*body part of the website */
+    font-family: "Lucida Console", "Courier New", monospace; /* editing font and margins/padding for proper footer and header placement and font design*/
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-image: url('images/background.png');
+    background-image: url('images/background.png'); /*to set the bg as an image that does not repeat and has proper size */
     background-repeat: no-repeat;
-    background-attachment: fixed; 
     background-size: 100% 100%;
-    color: #143132;
+    color: #143132; /*Font Color*/
 }
 
 header {
-    display: flex;
+    display: flex; /* editing the orientation and display of information in the header*/
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    background-color: #dceae6;
+    padding: 20px; /* to create space before the header ends*/
+    background-color: #dceae6;/*editing header color and font color*/
     color: #143132;
-    border: #333;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
 }
 
 .nav-container {
-    display: flex;
-    gap: 15px;
+    display: flex; /*ensure that navigation container contains the navigation links beside each other with a gap */
+    gap: 50px;
 }
 
 .logo-container img {
-    width: 100px;
-    border-radius: 20px;
+    width: 100px; /* edit size of logo*/
 }
 
-.nav-item {
-    padding: 10px;
-}
 
-.nav-item a {
+.nav-item a { /* to edit the text color, font, and ensure there are no lines in the navigation links found at the top*/
+    font-family: "Lucida Console", "Courier New", monospace;
     color: #143132;
     text-decoration: none;
 }
 
-.featured-photo img {
+.featured-photo img { /*edit the size of featured image*/
     width: 100%;
-    height: auto;
 }
 
-.projects, .skills, .autobiography {
+.projects, .skills, .autobiography { /*edit the label texts for each of these parts, make it have proper spacing, font, and alignment*/
+    font-family: "Lucida Console", "Courier New", monospace;
     padding: 30px;
     text-align: center;
 }
 
-.project-grid {
+.project-grid { /*ensure proper orientation of the container of the three separate project containers, ensuring that the three have even spacing, are undistorted, and aligned properly*/
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
-.project-item {
-    width: 500px;
-    background-color: #f4f4f4;
+.project-item {  /*editing each container of the projects*/
+    width: 500px; /*set the size of the container*/
+    background-color: #f4f4f4;/*set the bg image and ensure proper spacing of items to the border through padding*/
     padding: 20px;
-    border: 1px solid #ddd;
-    text-align: center;
+    border: 1px solid #ddd; /*define the border*/
+    text-align: center; /*define text alignment*/
 }
 
-.autobiography {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0;
-}
+.project-item img { /* set project image to be just within the container of the project*/
+    height: 100%;
+    width: 100%;
+  }
 
-.biography {
-    max-width: 800px;
-    text-align: center;
-    padding: 20px;
-}
 .skill-grid {
     display: flex;
     justify-content: space-evenly;
@@ -91,56 +69,57 @@ header {
     flex-wrap: wrap;
 }
 
-.project-item img {
-    height: 100%;
-    width: 100%;
-  }
-  
-
-.skill-item {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border: 1px solid #ddd;
+.skill-item {  /*editing each container of the skills - same as skill-item*/
     width: 500px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
     text-align: center;
 }
 
-.skill-item img {
+.skill-item img { /* SAME AS project-item img but for skill item images*/
     height: 100%;
     width: 100%;
   }
 
-.biography img {
+  
+
+.autobiography { /*ensure the proper orientation of the autobiography container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biography { /*set the size and text alignment of the biography*/
+    width: 800px;
+    text-align: center;
+}
+
+.biography img { /* same as project and skill-item img but for biography*/
     height: 100%;
     width: 100%;
   }
 
-footer {
+footer { /*edit the design elements (color and font color) spacing through padding, alignment, and direction of text of the info in the footer*/
     background-color: #dceae6;
     color: #143132;
     padding: 20px;
     text-align: left;
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
-footer .footer-content {
+footer .footer-content { /*ensure that the items are in the center of the container and the items are beside each other rather than up and down*/
     display: flex;
     align-items: center;
-    width: 100%;
 }
 
-footer .footer-logo img {
+footer .footer-logo img { /* margin and size edit of footer*/
     width: 80px;
     margin-right: 15px;
-    border-radius: 10px;
 }
 
-.footer-bottom {
+.footer-bottom { /*center align the back to top and copyright info*/
     text-align: center;
-    width: 100%;
-    margin-top: 20px;
 }
 
 
