@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid red;
+    padding: 0px 15px;
+}
+
+.header3 {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.container .header3 {
+    background-color: red;
+}
+
+.container > .content > .header3 {
+    background-color: brown;
+}
